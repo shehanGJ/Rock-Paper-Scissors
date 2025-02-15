@@ -1,0 +1,85 @@
+body{
+  font-family: cursive;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  text-align: center;
+}
+
+.game-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon{
+  height: 50px;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.move-button:hover{
+  transform: scale(1.1);
+}
+
+.move-button:active{
+  transform: scale(0.9);
+}
+
+
+.result-first{
+  font-weight: bold;
+}
+
+.player-com-icon{
+  width: 50px;
+  margin-top: 30px;
+}
+
+.com-player-think{
+  width: 70px;
+}
+
+.result-line{
+  margin-bottom: 60px;
+}
+
+.reset-button{
+  padding: 10px 20px;
+  background-color: rgb(243, 191, 6);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursive;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset-button:hover{
+  transform: scale(1.1);
+}
+
+.reset-button:active{
+  transform: scale(0.7);
+}
+
+.wins{
+  color: greenyellow;
+}
+
+.loses{
+  color: red;
+}
+
+.ties{
+  color: yellow;
+}
